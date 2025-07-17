@@ -1,3 +1,6 @@
+@file:JvmName("MainApplication") // 👈 ADD THIS LINE
+
+
 package com.qr
 
 import android.app.Application

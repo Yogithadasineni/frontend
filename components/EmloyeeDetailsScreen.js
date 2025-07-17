@@ -5,7 +5,7 @@ import { ActivityIndicator, Image, StyleSheet, Text, View } from 'react-native';
 
 // const SERVER = 'https://backend-code-new.onrender.com';
 
-    const SERVER = 'http://10.186.170.113:3000';
+    const SERVER = 'http://10.98.130.113:3000';
 
 
 export default function EmployeeDetailsScreen({ route }) {

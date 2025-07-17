@@ -13,7 +13,7 @@ import {
 import RNFS from 'react-native-fs';
 import Pdf from 'react-native-pdf';
 
-const SERVER = 'http://10.186.170.113:3000';
+const SERVER = 'http://10.98.130.113:3000';
 // const SERVER = 'https://backend-code-new.onrender.com'
 
 export default function AssetDetailsScreen({ route }) {

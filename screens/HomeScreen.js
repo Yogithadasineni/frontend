@@ -14,7 +14,7 @@ import {
 import Scanner from '../components/Scanner';
 
 const { height } = Dimensions.get('window');
-const SERVER = 'http://10.186.170.113:3000';
+const SERVER = 'http://10.98.130.113:3000';
 
 export default function HomeScreen({ navigation }) {
   const [showScanner, setShowScanner] = useState(false);

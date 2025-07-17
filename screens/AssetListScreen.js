@@ -15,7 +15,7 @@ export default function AssetListScreen() {
     setError(null);
 
     try {
-      const res = await fetch('http://10.186.170.113:3000/assets');  // Update URL if needed
+      const res = await fetch('http://10.98.130.113:3000/assets');  // Update URL if needed
       if (!res.ok) throw new Error('Failed to fetch assets');
       const data = await res.json();
       setAssets(data);
